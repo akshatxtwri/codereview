@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0
+  ;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root{
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.left ,.right{
+  height: 100%;
+  flex-basis: 50%;
+  border-radius: 0.5rem;
+}
+
+.left{
+  background-color:rgb(0, 0, 74) ;
+  padding: 1rem 2rem;
+}
+
+.right {
+  background-color: rgb(58, 56, 52);
+  padding: 1rem 1.5rem;
+  overflow: auto;
+}
+
+.zz {
+  position: absolute;
+  bottom: 3rem;
+  left: 34rem;
+  background-color: rgb(219, 219, 255);
+  color: #000000;
+  padding: 0.5rem 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 0.7rem;
+}
+.zz:hover {
+  background-color: #45a049;
+}
+
+.code , 
+.code pre,
+.code pre code{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border-radius: 0.7rem;
+  background-color: #0c0c0c;
+}
