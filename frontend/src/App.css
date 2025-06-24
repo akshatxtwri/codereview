@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  background-color: #121212;
+}
+
 html,
 body,
 #root{
@@ -32,15 +39,16 @@ main{
 }
 
 .right {
-  background-color: rgb(58, 56, 52);
-  padding: 1rem 1.5rem;
-  overflow: auto;
+  font-size: 3rem;
+  line-height: 1.6;
+  color: #f1f1f1;
+  font-family: "Inter", sans-serif;
 }
-
 .zz {
   position: absolute;
-  bottom: 3rem;
-  left: 34rem;
+  font: 1.5rem "Inter", sans-serif;
+  bottom: 5rem;
+  left: 113rem;
   background-color: rgb(219, 219, 255);
   color: #000000;
   padding: 0.5rem 2rem;

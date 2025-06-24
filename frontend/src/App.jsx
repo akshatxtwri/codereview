@@ -40,7 +40,7 @@ return (
               padding={10}
               style={{
                 fontFamily: '"Fira code", "Fira Mono", monospace',
-                fontSize: 16,
+                fontSize: 60,
                 border: "1px solid #ddd",
                 borderRadius: "5px",
                 height: "100%",
